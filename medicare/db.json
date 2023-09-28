@@ -2,7 +2,273 @@
   "medicines": [
     {
       "id": 1,
-      "title": "json-server"
+      "Name": "Amway Nutrilite Daily",
+      "Category": "Dietary Supplements",
+      "Price": 899,
+      "Desc": "Amway Nutrilite Daily is a multivitamin and multimineral supplement that supports overall health.",
+      "Manufacturer": "Amway",
+      "Image": "https://www.amway.in/_next/image?url=https%3A%2F%2Fmedia.amway.in%2Fsys-master%2Fimages%2Fh6e%2Fh37%2F9125852872734%2FEIA.w800.h800.313504ID_1.png&w=768&q=75"
+    },
+    {
+      "id": 2,
+      "Name": "Dabur Honitus Cough Syrup",
+      "Category": "Cough, Cold, Fever",
+      "Price": 85,
+      "Desc": "Dabur Honitus Cough Syrup provides relief from cough and throat irritation.",
+      "Manufacturer": "Dabur",
+      "Image": "https://m.media-amazon.com/images/I/918pLpn6fKL.jpg"
+    },
+    {
+      "id": 3,
+      "Name": "Optimum Nutrition Gold Standard 100% Whey Protein",
+      "Category": "Nutrition",
+      "Price": 2499,
+      "Desc": "Optimum Nutrition Gold Standard 100% Whey Protein is a high-quality protein supplement for muscle recovery.",
+      "Manufacturer": "Optimum Nutrition",
+      "Image": "https://assets.hyugalife.com/catalog/product/7/4/748927065725_1.jpg?compress=true&q=75&format=webp"
+    },
+    {
+      "id": 4,
+      "Name": "Himalaya Wellness Pure Herbs Ashvagandha",
+      "Category": "Vitamins and Minerals",
+      "Price": 150,
+      "Desc": "Himalaya Wellness Pure Herbs Ashvagandha is an herbal supplement for stress relief and vitality.",
+      "Manufacturer": "Himalaya Wellness",
+      "Image": "https://m.media-amazon.com/images/I/61eNW65rU0L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 5,
+      "Name": "Probiotic 10 Billion CFU Capsules",
+      "Category": "Probiotics",
+      "Price": 399,
+      "Desc": "Probiotic 10 Billion CFU Capsules promote digestive health with beneficial probiotics.",
+      "Manufacturer": "Nature's Bounty",
+      "Image": "https://m.media-amazon.com/images/I/81292ypj9FL.jpg"
+    },
+    {
+      "id": 6,
+      "Name": "Zyrtec Allergy Relief Tablets",
+      "Category": "Allergies",
+      "Price": 199,
+      "Desc": "Zyrtec Allergy Relief Tablets provide relief from allergy symptoms like sneezing and runny nose.",
+      "Manufacturer": "Johnson & Johnson",
+      "Image": "https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/58422/541146/16869952_FULL__00715__53249.1686224989.jpg?c=1&imbypass=on"
+    },
+    {
+      "id": 7,
+      "Name": "Colgate Total Toothpaste",
+      "Category": "Mouth & Teeth",
+      "Price": 79,
+      "Desc": "Colgate Total Toothpaste helps maintain oral hygiene and prevent cavities.",
+      "Manufacturer": "Colgate-Palmolive",
+      "Image": "colgate_total_toothpaste.jpg"
+    },
+    {
+      "id": 8,
+      "Name": "Refresh Tears Lubricant Eye Drops",
+      "Category": "Eye Care",
+      "Price": 299,
+      "Desc": "Refresh Tears Lubricant Eye Drops relieve dryness and irritation, keeping your eyes refreshed.",
+      "Manufacturer": "Allergan",
+      "Image": "https://5.imimg.com/data5/SELLER/Default/2022/12/HE/UZ/TL/64730033/refresh-tears-eye-drop-500x500.jpg"
+    },
+    {
+      "id": 9,
+      "Name": "Himalaya Neem Face Wash",
+      "Category": "Cosmetics",
+      "Price": 120,
+      "Desc": "Himalaya Neem Face Wash cleanses and purifies the skin, preventing acne and pimples.",
+      "Manufacturer": "Himalaya Wellness",
+      "Image": "https://www.jiomart.com/images/product/original/490819114/himalaya-purifying-neem-face-wash-150-ml-product-images-o490819114-p490819114-0-202203151526.jpg?im=Resize=(1000,1000)"
+    },
+    {
+      "id": 10,
+      "Name": "Sensodyne Toothbrush",
+      "Category": "Mouth & Teeth",
+      "Price": 99,
+      "Desc": "Sensodyne Toothbrush is specially designed for sensitive teeth and gums.",
+      "Manufacturer": "GSK Consumer Healthcare",
+      "Image": "sensodyne_toothbrush.jpg"
+    },
+    {
+      "id": 11,
+      "Name": "Bausch + Lomb Contact Lens Solution",
+      "Category": "Eye Care",
+      "Price": 249,
+      "Desc": "Bausch + Lomb Contact Lens Solution cleans and disinfects contact lenses for comfortable wear.",
+      "Manufacturer": "Bausch + Lomb",
+      "Image": "https://m.media-amazon.com/images/I/71Bl2QbCiaL.jpg"
+    },
+    {
+      "id": 12,
+      "Name": "Himalaya Herbals Protein Shampoo",
+      "Category": "Cosmetics",
+      "Price": 180,
+      "Desc": "Himalaya Herbals Protein Shampoo nourishes and strengthens your hair.",
+      "Manufacturer": "Himalaya Wellness",
+      "Image": "himalaya_protein_shampoo.jpg"
+    },
+    {
+      "id": 13,
+      "Name": "Cetrizine Allergy Relief Tablets",
+      "Category": "Allergies",
+      "Price": 79,
+      "Desc": "Cetrizine Allergy Relief Tablets provide relief from allergy symptoms like sneezing and itching.",
+      "Manufacturer": "Timely",
+      "Image": "https://m.media-amazon.com/images/I/71O31azI9aL.jpg"
+    },
+    {
+      "id": 14,
+      "Name": "Listerine Cool Mint Mouthwash",
+      "Category": "Mouth & Teeth",
+      "Price": 135,
+      "Desc": "Listerine Cool Mint Mouthwash kills germs and freshens breath for a clean mouth.",
+      "Manufacturer": "Johnson & Johnson",
+      "Image": "listerine_cool_mint_mouthwash.jpg"
+    },
+    {
+      "id": 15,
+      "Name": "Optrex Soothing Eye Drops",
+      "Category": "Eye Care",
+      "Price": 199,
+      "Desc": "Optrex Soothing Eye Drops relieve dry and irritated eyes for long-lasting comfort.",
+      "Manufacturer": "Optrex",
+      "Image": "https://htsplus.ng/wp-content/uploads/2021/09/optrex-removebg-preview.png"
+    },
+    {
+      "id": 16,
+      "Name": "Dettol Hand Sanitizer",
+      "Category": "Protection",
+      "Price": 150,
+      "Desc": "Dettol Hand Sanitizer is essential for maintaining hand hygiene and preventing the spread of germs.",
+      "Manufacturer": "Reckitt Benckiser",
+      "Image": "https://needline.in/wp-content/uploads/2020/10/detol-HS-50.jpg"
+    },
+    {
+      "id": 17,
+      "Name": "Neutrogena Lip Balm",
+      "Category": "Handcare",
+      "Price": 125,
+      "Desc": "Neutrogena Lip Balm helps keep your lips moisturized and protected from dryness and cracking.",
+      "Manufacturer": "Neutrogena",
+      "Image": "https://m.media-amazon.com/images/I/51UjPSVqUCL.jpg"
+    },
+    {
+      "id": 18,
+      "Name": "MuscleBlaze Mass Gainer",
+      "Category": "Dietary Supplements",
+      "Price": 1799,
+      "Desc": "MuscleBlaze Mass Gainer is a high-calorie supplement for muscle building and weight gain.",
+      "Manufacturer": "MuscleBlaze",
+      "Image": "https://cdn.moglix.com/p/Kjqc3msXs3kGX-xxlarge.jpg"
+    },
+    {
+      "id": 19,
+      "Name": "NyQuil Cold & Flu Nighttime Relief",
+      "Category": "Cough, Cold, Fever",
+      "Price": 249,
+      "Desc": "NyQuil Cold & Flu Nighttime Relief provides relief from cold and flu symptoms for a good night's sleep.",
+      "Manufacturer": "Vicks",
+      "Image": "https://cdn.mall.adeptmind.ai/https%3A%2F%2Fassets.beauty.shoppersdrugmart.ca%2Fbb-prod-product-image%2F56100074823%2Fenfr%2F01%2Ffront%2F1600%2Fwhite.jpg_large.webp"
+    },
+    {
+      "id": 20,
+      "Name": "NutriBiotic GSE Liquid Concentrate",
+      "Category": "Nutrition",
+      "Price": 799,
+      "Desc": "NutriBiotic GSE Liquid Concentrate is a dietary supplement with grapefruit seed extract for immune support.",
+      "Manufacturer": "NutriBiotic",
+      "Image": "https://i.pinimg.com/736x/72/3d/89/723d896c76ed2c9e8cbb8fb0998153d4.jpg"
+    },
+    {
+      "id": 21,
+      "Name": "Iron Supplement Tablets",
+      "Category": "Vitamins and Minerals",
+      "Price": 199,
+      "Desc": "Iron Supplement Tablets provide essential iron for preventing anemia and boosting energy levels.",
+      "Manufacturer": "Nature's Way",
+      "Image": "https://m.media-amazon.com/images/I/81Dn4QHXXJL.jpg"
+    },
+    {
+      "id": 22,
+      "Name": "Culturelle Probiotic Capsules",
+      "Category": "Probiotics",
+      "Price": 1299,
+      "Desc": "Culturelle Probiotic Capsules support digestive health with probiotics for a balanced gut.",
+      "Manufacturer": "Culturelle",
+      "Image": "https://m.media-amazon.com/images/I/715+B5IMN4L.jpg"
+    },
+    {
+      "id": 23,
+      "Name": "Claritin 24-Hour Allergy Relief",
+      "Category": "Allergies",
+      "Price": 299,
+      "Desc": "Claritin 24-Hour Allergy Relief provides non-drowsy relief from allergy symptoms.",
+      "Manufacturer": "Bayer",
+      "Image": "https://www.londondrugs.com/on/demandware.static/-/Sites-londondrugs-master/default/dw52f76676/products/L2936839/large/L2936839.JPG"
+    },
+    {
+      "id": 24,
+      "Name": "Sensodyne Pronamel Toothpaste",
+      "Category": "Mouth & Teeth",
+      "Price": 120,
+      "Desc": "Sensodyne Pronamel Toothpaste helps protect enamel and reduce sensitivity.",
+      "Manufacturer": "GSK Consumer Healthcare",
+      "Image": "sensodyne_pronamel_toothpaste.jpg"
+    },
+    {
+      "id": 25,
+      "Name": "Biotrue Contact Lens Solution",
+      "Category": "Eye Care",
+      "Price": 249,
+      "Desc": "Biotrue Contact Lens Solution provides long-lasting moisture and keeps contact lenses comfortable.",
+      "Manufacturer": "Bausch + Lomb",
+      "Image": "https://m.media-amazon.com/images/I/71EyC20ZtxL.jpg"
+    },
+    {
+      "id": 26,
+      "Name": "Maybelline Fit Me Matte + Poreless Foundation",
+      "Category": "Cosmetics",
+      "Price": 299,
+      "Desc": "Maybelline Fit Me Matte + Poreless Foundation gives a natural and matte finish for all-day wear.",
+      "Manufacturer": "Maybelline",
+      "Image": "maybelline_fit_me_foundation.jpg"
+    },
+    {
+      "id": 27,
+      "Name": "Equate Allergy Relief Tablets",
+      "Category": "Allergies",
+      "Price": 149,
+      "Desc": "Equate Allergy Relief Tablets provide relief from common allergy symptoms.",
+      "Manufacturer": "Walmart",
+      "Image": "https://i5.walmartimages.com/seo/Equate-Allergy-Relief-Tablets-with-Diphenhydramine-Hcl-25mg-Antihistamine-365-Count_918bb62a-bc23-4487-828e-c2bd71240e91.bc7668ec144f01d312f732d32f285357.jpeg"
+    },
+    {
+      "id": 28,
+      "Name": "Oral-B Pro 1000 Electric Toothbrush",
+      "Category": "Mouth & Teeth",
+      "Price": 499,
+      "Desc": "Oral-B Pro 1000 Electric Toothbrush provides superior cleaning and plaque removal.",
+      "Manufacturer": "Procter & Gamble",
+      "Image": "oralb_pro_1000_toothbrush.jpg"
+    },
+    {
+      "id": 29,
+      "Name": "Rohto Cool Redness Relief Eye Drops",
+      "Category": "Eye Care",
+      "Price": 349,
+      "Desc": "Rohto Cool Redness Relief Eye Drops relieve redness and refresh tired eyes.",
+      "Manufacturer": "Rohto",
+      "Image": "https://images-cdn.ubuy.co.in/634e4e33f8c23b52fc39628f-rohto-cool-max-maximum-redness-relief.jpg"
+    },
+    {
+      "id": 30,
+      "Name": "Dettol Antiseptic Liquid",
+      "Category": "Protection",
+      "Price": 199,
+      "Desc": "Dettol Antiseptic Liquid is a versatile antiseptic solution for wound care and disinfection.",
+      "Manufacturer": "Reckitt Benckiser",
+      "Image": "https://ramdevproducts.com/cdn/shop/products/UTB8xRJ7pJnJXKJkSaiyq6AhwXXaW_1000x.jpg?v=1613251925"
     }
   ]
 }
