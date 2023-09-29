@@ -260,6 +260,303 @@
       "Desc": "Rohto Cool Redness Relief Eye Drops relieve redness and refresh tired eyes.",
       "Manufacturer": "Rohto",
       "Image": "https://images-cdn.ubuy.co.in/634e4e33f8c23b52fc39628f-rohto-cool-max-maximum-redness-relief.jpg"
+    },
+    {
+      "id": 30,
+      "Name": "Dettol Antiseptic Liquid",
+      "Category": "Protection",
+      "Price": 199,
+      "Desc": "Dettol Antiseptic Liquid is a versatile antiseptic solution for wound care and disinfection.",
+      "Manufacturer": "Reckitt Benckiser",
+      "Image": "https://ramdevproducts.com/cdn/shop/products/UTB8xRJ7pJnJXKJkSaiyq6AhwXXaW_1000x.jpg?v=1613251925"
+    },
+    {
+      "id": 31,
+      "Name": "Vaseline Intensive Care Hand Lotion",
+      "Category": "Personal Care",
+      "Price": 79,
+      "Desc": "Vaseline Intensive Care Hand Lotion moisturizes and heals dry and cracked hands.",
+      "Manufacturer": "Unilever",
+      "Image": "https://m.media-amazon.com/images/I/71OydBFBpJL.jpg"
+    },
+    {
+      "id": 32,
+      "Name": "ON Serious Mass Gainer",
+      "Category": "Dietary Supplements",
+      "Price": 2599,
+      "Desc": "ON Serious Mass Gainer is a high-calorie supplement for bulking and muscle growth.",
+      "Manufacturer": "Optimum Nutrition",
+      "Image": "https://m.media-amazon.com/images/I/71Fz1KQPXrL._SX679_PIbundle-2,TopRight,0,0_SX679SY675SH20_.jpg"
+    },
+    {
+      "id": 33,
+      "Name": "Theraflu Cold & Flu Relief",
+      "Category": "Cough, Cold, Fever",
+      "Price": 189,
+      "Desc": "Theraflu Cold & Flu Relief provides relief from cold and flu symptoms.",
+      "Manufacturer": "GlaxoSmithKline",
+      "Image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/bp-theraflu/en_US/products/00300678132080_C1N1.jpg?auto=formatg"
+    },
+    {
+      "id": 34,
+      "Name": "Garden of Life Organic Protein Powder",
+      "Category": "Nutrition",
+      "Price": 1599,
+      "Desc": "Garden of Life Organic Protein Powder is a plant-based protein source for athletes and fitness enthusiasts.",
+      "Manufacturer": "Garden of Life",
+      "Image": "https://m.media-amazon.com/images/I/712Hilh7xlL.jpg"
+    },
+    {
+      "id": 35,
+      "Name": "Nature Made Calcium Magnesium Zinc Tablets",
+      "Category": "Vitamins and Minerals",
+      "Price": 499,
+      "Desc": "Nature Made Calcium Magnesium Zinc Tablets support bone health and overall well-being.",
+      "Manufacturer": "Nature Made",
+      "Image": "https://s3.images-iherb.com/ndm/ndm01893/y/21.jpg"
+    },
+    {
+      "id": 36,
+      "Name": "Align Probiotic Supplement",
+      "Category": "Probiotics",
+      "Price": 899,
+      "Desc": "Align Probiotic Supplement helps maintain a healthy digestive balance with beneficial probiotics.",
+      "Manufacturer": "Procter & Gamble",
+      "Image": "https://m.media-amazon.com/images/I/815Cl1Mzg1L.jpg"
+    },
+    {
+      "id": 37,
+      "Name": "Allegra Allergy 24-Hour Tablets",
+      "Category": "Allergies",
+      "Price": 299,
+      "Desc": "Allegra Allergy 24-Hour Tablets provide long-lasting relief from allergy symptoms.",
+      "Manufacturer": "Sanofi",
+      "Image": "https://cdn11.bigcommerce.com/s-ilgxsy4t82/images/stencil/1280x1280/products/885/1618/a2be55b6-9b94-464f-ae86-f18aae09bfd7_1.acecc05daa175f33b53965ab215cfb6a__34812.1656615013.jpg?c=1&imbypass=on"
+    },
+    {
+      "id": 38,
+      "Name": "Ocusoft Lid Scrub Eyelid Cleansing Wipes",
+      "Category": "Eye Care",
+      "Price": 129,
+      "Desc": "Ocusoft Lid Scrub Eyelid Cleansing Wipes help clean and soothe irritated eyelids.",
+      "Manufacturer": "Ocusoft",
+      "Image": "https://m.media-amazon.com/images/I/81SCm2qg79L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 39,
+      "Name": "Blink Tears Lubricating Eye Drops",
+      "Category": "Eye Care",
+      "Price": 199,
+      "Desc": "Blink Tears Lubricating Eye Drops provide long-lasting relief from dry and irritated eyes.",
+      "Manufacturer": "Abbott",
+      "Image": "https://images-cdn.ubuy.co.in/643269ae9cf4d325a9483a7b-blink-tears-lubricating-eye-drops-dry.jpg"
+    },
+    {
+      "id": 40,
+      "Name": "Lifebuoy Hand Wash",
+      "Category": "Protection",
+      "Price": 49,
+      "Desc": "Lifebuoy Hand Wash kills germs and helps maintain hand hygiene.",
+      "Manufacturer": "Unilever",
+      "Image": "https://m.media-amazon.com/images/I/513IGMgoadL.jpg"
+    },
+    {
+      "id": 41,
+      "Name": "Aveeno Daily Moisturizing Lotion",
+      "Category": "Personal Care",
+      "Price": 299,
+      "Desc": "Aveeno Daily Moisturizing Lotion keeps hands soft and moisturized.",
+      "Manufacturer": "Johnson & Johnson",
+      "Image": "https://www.healthurwealth.com/UploadFiles/605369046.jpg"
+    },
+    {
+      "id": 42,
+      "Name": "GNC Mega Men Multivitamin",
+      "Category": "Dietary Supplements",
+      "Price": 1199,
+      "Desc": "GNC Mega Men Multivitamin provides essential vitamins and minerals for men's health.",
+      "Manufacturer": "GNC",
+      "Image": "https://www.gnc.com/dw/image/v2/BBLB_PRD/on/demandware.static/-/Sites-master-catalog-gnc/default/dw8ea337c4/hi-res/201722_GNC_Mega_Men_Energy_&_Metabolism_180ct_Bottle.jpg?sw=480&sh=480&sm=fit"
+    },
+    {
+      "id": 43,
+      "Name": "Mucinex Fast-Max Cold & Flu",
+      "Category": "Cough, Cold, Fever",
+      "Price": 349,
+      "Desc": "Mucinex Fast-Max Cold & Flu provides fast relief from cold and flu symptoms.",
+      "Manufacturer": "Reckitt Benckiser",
+      "Image": "https://m.media-amazon.com/images/I/718GEoAJRRL.jpg"
+    },
+    {
+      "id": 44,
+      "Name": "Orgain Organic Protein Powder",
+      "Category": "Nutrition",
+      "Price": 1999,
+      "Desc": "Orgain Organic Protein Powder is a plant-based protein source for fitness enthusiasts.",
+      "Manufacturer": "Orgain",
+      "Image": "https://m.media-amazon.com/images/I/417ScjHVzWL._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": 45,
+      "Name": "Nature's Bounty Calcium Supplement",
+      "Category": "Vitamins and Minerals",
+      "Price": 799,
+      "Desc": "Nature's Bounty Calcium Supplement supports bone health and strong teeth.",
+      "Manufacturer": "Nature's Bounty",
+      "Image": "https://images-eu.ssl-images-amazon.com/images/I/41No7ftxShL._AC_UL600_SR600,600_.jpg"
+    },
+    {
+      "id": 46,
+      "Name": "Renew Life Ultimate Flora Probiotic",
+      "Category": "Probiotics",
+      "Price": 1499,
+      "Desc": "Renew Life Ultimate Flora Probiotic supports digestive and immune health with probiotics.",
+      "Manufacturer": "Renew Life",
+      "Image": "https://m.media-amazon.com/images/I/814GT-3eEOL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+      "id": 47,
+      "Name": "Benadryl Allergy Relief",
+      "Category": "Allergies",
+      "Price": 149,
+      "Desc": "Benadryl Allergy Relief provides fast relief from allergy symptoms like itching and sneezing.",
+      "Manufacturer": "Benadryl",
+      "Image": "https://images-its.chemistdirect.co.uk/Benadryl-Allergy-Relief-Capsules.jpg?o=mGg6YUo0WNCNMhWor$T1IxzJW0Ij&V=7@g4&w=800&h=800"
+    },
+    {
+      "id": 48,
+      "Name": "Afrin Nasal Spray",
+      "Category": "Allergies",
+      "Price": 129,
+      "Desc": "Afrin Nasal Spray provides fast relief from nasal congestion due to allergies.",
+      "Manufacturer": "Bayer",
+      "Image": "https://m.media-amazon.com/images/I/71a9XtDFopL.jpg"
+    },
+    {
+      "id": 49,
+      "Name": "Similasan Dry Eye Relief Eye Drops",
+      "Category": "Eye Care",
+      "Price": 399,
+      "Desc": "Similasan Dry Eye Relief Eye Drops provide natural relief from dry and irritated eyes.",
+      "Manufacturer": "Similasan",
+      "Image": "https://www.amconlabs.com/customers/images/jz8080.jpg"
+    },
+    {
+      "id": 50,
+      "Name": "Hand Sanitizer Gel",
+      "Category": "Protection",
+      "Price": 69,
+      "Desc": "Hand Sanitizer Gel is essential for on-the-go hand hygiene and germ protection.",
+      "Manufacturer": "Savlon",
+      "Image": "https://m.media-amazon.com/images/I/31C0ww9xSgL.jpg"
+    },
+    {
+      "id": 51,
+      "Name": "Eucerin Advanced Repair Lotion",
+      "Category": "Skin Care",
+      "Price": 129,
+      "Desc": "Eucerin Advanced Repair Lotion provides intensive moisture for dry and sensitive skin.",
+      "Manufacturer": "Eucerin",
+      "Image": "https://m.media-amazon.com/images/I/5187PPemcvL.jpg"
+    },
+    {
+      "id": 52,
+      "Name": "Centrum Multivitamin Tablets",
+      "Category": "Vitamins and Minerals",
+      "Price": 899,
+      "Desc": "Centrum Multivitamin Tablets provide essential vitamins and minerals for overall health.",
+      "Manufacturer": "Pfizer",
+      "Image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/bp-centrum-v3/en_IN/media/Centrum-Women.jpg?auto=format"
+    },
+    {
+      "id": 53,
+      "Name": "Nasacort Allergy 24HR Nasal Spray",
+      "Category": "Allergies",
+      "Price": 159,
+      "Desc": "Nasacort Allergy 24HR Nasal Spray provides long-lasting relief from nasal allergy symptoms.",
+      "Manufacturer": "Sanofi",
+      "Image": "https://m.media-amazon.com/images/I/81-HHcxy1wL.jpg"
+    },
+    {
+      "id": 54,
+      "Name": "Aveeno Positively Radiant Moisturizer",
+      "Category": "Skin Care",
+      "Price": 199,
+      "Desc": "Aveeno Positively Radiant Moisturizer brightens and evens skin tone for a radiant complexion.",
+      "Manufacturer": "Johnson & Johnson",
+      "Image": "https://m.media-amazon.com/images/I/719H6EyLZpL.jpg"
+    },
+    {
+      "id": 55,
+      "Name": "Nature's Bounty Fish Oil Softgels",
+      "Category": "Nutrition",
+      "Price": 299,
+      "Desc": "Nature's Bounty Fish Oil Softgels support heart and joint health with omega-3 fatty acids.",
+      "Manufacturer": "Nature's Bounty",
+      "Image": "https://res.cloudinary.com/raffeldeals/image/fetch/https://www.raffeldeals.com/media/21682/catalog/0026367-systane-icaps-multivitamin-coated-tablets.jpg?size=256"
+    },
+    {
+      "id": 56,
+      "Name": "Bepanthen Antiseptic Cream",
+      "Category": "Skin Care",
+      "Price": 79,
+      "Desc": "Bepanthen Antiseptic Cream is for wound care and protection against infection.",
+      "Manufacturer": "Bayer",
+      "Image": "https://ccpharmacy.com.au/media/com_hikashop/upload/medication/9310041900643-front.jpg"
+    },
+    {
+      "id": 57,
+      "Name": "Emergen-C Vitamin C Powder",
+      "Category": "Vitamins and Minerals",
+      "Price": 249,
+      "Desc": "Emergen-C Vitamin C Powder provides a boost of vitamin C for immune support.",
+      "Manufacturer": "Pfizer",
+      "Image": "https://target.scene7.com/is/image/Target/GUEST_3aff5906-a095-4a73-a098-4ece906fd08e?wid=488&hei=488&fmt=pjpeg"
+    },
+    {
+      "id": 58,
+      "Name": "Flonase Allergy Relief Nasal Spray",
+      "Category": "Allergies",
+      "Price": 199,
+      "Desc": "Flonase Allergy Relief Nasal Spray provides relief from allergy symptoms like sneezing and congestion.",
+      "Manufacturer": "GlaxoSmithKline",
+      "Image": "https://images-cdn.ubuy.ae/64e9615189d62b0c8e4c5397-flonase-24-hour-non-drowsy-decongestant.jpg"
+    },
+    {
+      "id": 59,
+      "Name": "CeraVe Moisturizing Cream",
+      "Category": "Skin Care",
+      "Price": 149,
+      "Desc": "CeraVe Moisturizing Cream hydrates and restores the skin's natural barrier.",
+      "Manufacturer": "CeraVe",
+      "Image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products-v4/moisturizing-cream/cerave_moisturizing_cream_16oz_jar_front-700x875-v3.jpg?rev=db6e3c22250e4928bc749dd2c207de5b&w=500&hash=6F959AC16DA324FFB9DCE0C5BFDC8AD5"
+    },
+    {
+      "id": 60,
+      "Name": "SmartyPants Kids Complete Gummy Vitamins",
+      "Category": "Vitamins and Minerals",
+      "Price": 199,
+      "Desc": "SmartyPants Kids Complete Gummy Vitamins provide essential nutrients for children's growth.",
+      "Manufacturer": "SmartyPants",
+      "Image": "https://images-cdn.ubuy.co.in/64d5c79c2a4c1b4cc76a2562-smartypants-kids-formula-multivitamin.jpg"
+    },
+    {
+      "id": 61,
+      "Name": "Zyrtec Children's Allergy Syrup",
+      "Category": "Allergies",
+      "Price": 129,
+      "Desc": "Zyrtec Children's Allergy Syrup provides relief from allergy symptoms for kids.",
+      "Manufacturer": "Johnson & Johnson",
+      "Image": "https://m.media-amazon.com/images/I/71f1odTdRnL.jpg"
+    },
+    {
+      "id": 62,
+      "Name": "Coppertone Sport Sunscreen Lotion",
+      "Category": "Sun Care",
+      "Price": 179,
+      "Desc": "Coppertone Sport Sunscreen Lotion provides long-lasting sun protection for outdoor activities.",
+      "Manufacturer": "Bayer",
+      "Image": "https://m.media-amazon.com/images/I/71PzWNgKOeL.jpg"
     }
   ]
 }
