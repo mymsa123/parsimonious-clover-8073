@@ -32,13 +32,6 @@ const Consultancy = () => {
 
           <VStack border={"1px solid black"}>
           <Link>
-            <img src="https://views.medibuddy.in/offlineconsults/women_issues.png" alt="Women's issue" />
-            <Text>Gynecology</Text>
-          </Link>
-          </VStack>
-
-          <VStack border={"1px solid black"}>
-          <Link>
             <img src="https://views.medibuddy.in/offlineconsults/cardiac_issues.png" alt="Heart" />
             <Text>Cardiology</Text>
           </Link>
