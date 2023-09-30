@@ -10,6 +10,7 @@ export const getProduct = (paramsObj) => (dispatch) => {
   axios
     .get("https://medicare-updared.onrender.com/medicines", paramsObj)
     .then((res) => {
+      console.log(res)
       dispatch({ type: GET_PRODUCT_SUCCESS, payload: res.data });
     })
     .catch((err) => {
