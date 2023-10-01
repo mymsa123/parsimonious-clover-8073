@@ -261,5 +261,114 @@
       "Manufacturer": "Rohto",
       "Image": "https://images-cdn.ubuy.co.in/634e4e33f8c23b52fc39628f-rohto-cool-max-maximum-redness-relief.jpg"
     }
-  ]
+  ],
+
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "General Physician",
+      "description": "Experienced general physician specializing in internal medicine.",
+      "fee": 700
+  },
+  {
+      "id": 2,
+      "name": "Dr. Emily Johnson",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Cardiologist",
+      "description": "Cardiologist with expertise in heart-related issues.",
+      "fee": 750
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sarah Davis",
+    "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+    "category": "Dentist",
+    "description": "Dentist offering a wide range of dental services.",
+    "fee": 800
+},
+{
+      "id": 4,
+      "name": "Dr. Alice Williams",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dermatologist",
+      "description": "Dermatologist specializing in skin and hair treatments.",
+      "fee": 300
+},
+{
+  "id": 5,
+      "name": "Dr. Michael Brown",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Physiotherapist",
+      "description": "Physiotherapist helping patients recover from injuries and improve mobility.",
+      "fee": 450
+},
+{
+  "id": 6,
+      "name": "Dr. Laura Miller",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "General Physician",
+      "description": "General physician providing comprehensive healthcare services.",
+      "fee": 550
+},
+{
+  "id": 7,
+      "name": "Dr. Robert Clark",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Cardiologist",
+      "description": "Cardiologist specializing in heart disease diagnosis and treatment.",
+      "fee": 600
+},
+{
+  "id": 8,
+      "name": "Dr. Maria Garcia",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+      "category": "Dentist",
+      "description": "Dentist with a focus on preventive and cosmetic dentistry.",
+      "fee": 400
+},
+{
+  "id": 9,
+  "name": "Dr. Susan Taylor",
+  "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+  "category": "General Physician",
+  "description": "Experienced general physician specializing in family medicine.",
+  "fee": 500
+},
+{
+  "id": 10,
+  "name": "Dr. James Carter",
+  "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+  "category": "Cardiologist",
+  "description": "Cardiologist known for cutting-edge cardiac treatments.",
+  "fee": 800
+},
+{
+  "id": 11,
+  "name": "Dr. Emma Lewis",
+  "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+  "category": "Dermatologist",
+  "description": "Dermatologist offering advanced skincare solutions.",
+  "fee": 500
+},
+{
+  "id": 12,
+  "name": "Dr. Richard Turner",
+  "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+  "category": "Physiotherapist",
+  "description": "Physiotherapist with expertise in sports injuries rehabilitation.",
+  "fee": 400
+},
+{
+  "id": 13,
+  "name": "Dr. Laura Adams",
+  "image": "https://as2.ftcdn.net/v2/jpg/05/48/04/19/1000_F_548041959_McdGogq1h32eASUid6kSPnIDVFLJgCnm.jpg",
+  "category": "Dentist",
+  "description": "Dentist specializing in pediatric dentistry.",
+  "fee": 500
+}
+
+
+]
 }
