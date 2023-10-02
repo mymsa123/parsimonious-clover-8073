@@ -6,8 +6,8 @@ import DoctorsList from './Pages/DoctorsList';
 function App() {
   return (
     <div className="App">
-     {/* <DoctorsList/> */}
-     <Book/>
+     <DoctorsList/>
+     {/* <Book/> */}
     </div>
   );
 }

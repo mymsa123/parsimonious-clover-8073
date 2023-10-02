@@ -43,8 +43,10 @@ setSearchParams(params);
   return (
   <div>
     <VStack>
-     <VStack bgColor={"cyan.200"} width="100%" m={0} p={5}>
-        <Text fontSize='4xl' bgGradient='linear(to-l, #0fe85b, #f0365b)' bgClip='text'
+    {/* bgColor={"cyan.200"} */}
+    {/* bgGradient='linear(to-l, #0fe85b, #f0365b)' */}
+     <VStack  width="100%" m={0} p={5}>
+        <Text fontSize='4xl'  bgClip='text' bgColor={"green.400"}
            fontWeight='extrabold'>Say Hello👋!</Text>
         <Text fontSize='4xl' bgGradient='linear(to-l, #f114af, #5176d5)' bgClip='text'
            fontWeight='extrabold'>To a new era of healthcare</Text>
@@ -53,36 +55,36 @@ setSearchParams(params);
       </VStack>
       <VStack width="100%"  spacing={4}
       m={0} p={5}>
-        <Text fontSize='2xl' color="black">Filter By Category-</Text>
+        <Text fontSize='4xl' color="black">Filter By Category-</Text>
           <Flex gap={10}>
           <div>
             <input type="checkbox" value={"General Physician"}
             onChange={handleCategory} checked={category.includes("General Physician")}/>
-            <label >General Physician</label>
+            <label style={{fontSize:"25px"}}>General Physician</label>
         </div>
         <div>
             <input type="checkbox" value={"Cardiologist"} 
                 onChange={handleCategory} checked={category.includes("Cardiologist")}
             />
-            <label >Cardiologist</label>
+            <label style={{fontSize:"25px"}}>Cardiologist</label>
         </div>
         <div>
             <input type="checkbox" value={"Dentist"} 
                 onChange={handleCategory} checked={category.includes("Dentist")}
             />
-            <label >Dentist</label>
+            <label style={{fontSize:"25px"}} >Dentist</label>
         </div>
         <div>
             <input type="checkbox" value={"Dermatologist"} 
                 onChange={handleCategory} checked={category.includes("Dermatologist")}
             />
-            <label >Dermatologist</label>
+            <label style={{fontSize:"25px"}}>Dermatologist</label>
         </div>
         <div>
             <input type="checkbox" value={"Physiotherapist"} 
                 onChange={handleCategory} checked={category.includes("Physiotherapist")}
             />
-            <label >Physiotherapist</label>
+            <label style={{fontSize:"25px"}}>Physiotherapist</label>
         </div>
         </Flex>
       </VStack>
