@@ -3,47 +3,67 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProduct } from "../Redux/Products/action";
 import { ProductCard } from "./ProductCard";
 import styled from "styled-components";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { useState } from "react";
 
 export const ProductList = () => {
   const dispatch = useDispatch();
-  const allProducts = useSelector((store) => store.productReducer.products);
+  const products = useSelector((store) => store.productReducer.products);
   const [searchParams] = useSearchParams();
-  const location = useLocation();
+  const [searchQuery, setSearchQuery] = useState(searchParams.get("q") || "");
 
-  const searchQuery = searchParams.get("q") || "";
-
-  const products = allProducts.filter((product) =>
-    product.Name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-  useEffect(() => {
-    const paramsObj = {
+  const paramsObj = {
+    params: {
       Category: searchParams.getAll("Category"),
       _sort: searchParams.get("order") && "Price",
       _order: searchParams.get("order"),
-    };
+      q: searchQuery,
+    },
+  };
 
-    const query = searchParams.get("q");
-    if (query) {
-      paramsObj.q = query;
-    }
+  const handleSearch = (e) => {
+    setSearchQuery(e.target.value);
+  };
 
+  useEffect(() => {
     dispatch(getProduct(paramsObj));
-  }, [location.search]);
+  }, [searchParams, searchQuery]);
+
+  console.log(products);
 
   return (
-    <DIV>
-      {products.length > 0 &&
-        products.map((el, i) => {
-          return <ProductCard key={i} {...el} />;
-        })}
-    </DIV>
+    <div>
+      <div>
+        <h3>Search</h3>
+        <input
+          type="text"
+          placeholder="Enter search query"
+          value={searchQuery}
+          onChange={handleSearch}
+        />
+      </div>
+      <DIV>
+        {products.length > 0 &&
+          products.map((el, i) => {
+            return <ProductCard key={i} {...el} />;
+          })}
+      </DIV>
+    </div>
   );
 };
 
 const DIV = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+
+  @media screen and (min-width: 521px) and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
+
+  @media screen and (max-width: 520px) {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+  }
 `;
