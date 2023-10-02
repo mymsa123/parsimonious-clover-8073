@@ -1,12 +1,35 @@
+
+
+
+
 import './App.css';
-import Home from './Components/Home';
+import AllRoutes from './Components/AllRoutes';
 import { Navbar } from './Components/Navbar';
 
+
+// import Navbar from './Components/Navbar';
+
+
+
 function App() {
+ 
   return (
     <div className="App">
-     <Navbar/>
-     {/* <Home/> */}
+   {/* <Contact/> */}
+   <Navbar/> 
+       <AllRoutes/>
+    
+       {/* <Home/> 
+      <Category/>
+    
+     <Carousal/>
+     <Choose/>   */}
+   
+
+      {/* <Login/>  */}
+ 
+      {/* <Details/>  */}
+      
     </div>
   );
 }
