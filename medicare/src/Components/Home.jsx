@@ -8,6 +8,7 @@ export const Home = () => {
         <img src="/Images/Home.png" alt="Home" width="100%" />
       </Box>
       <VStack spacing={1} w={"70%"} m={4}>
+
         <Text fontSize="6xl" color={"#00525D"}>Healthcare Services</Text>
         <Text fontSize="xl" color={"#00525D"}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur voluptates 
         animi distinctio ea voluptatum dolorum dignissimos autem, accusantium iste facilis.</Text>
@@ -57,7 +58,7 @@ export const Home = () => {
         </VStack>
       </div>
       <Box width={"100%"} m={8}>
-        <img src="/Images/data.png" alt="data" width="100%"/>
+        <img src="/Images/data.png" alt="data" width="100%" />
       </Box>
     </VStack>
   )

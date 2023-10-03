@@ -64,7 +64,7 @@ function Book() {
           <VStack w="60%" m={"auto"} p={5}>
             <Container bgColor={"white"} p={10} borderRadius="50px">
               <form onSubmit={handleSubmit}>
-                <FormControl>
+                <FormControl textAlign={"left"}>
                   <Input
                     type="text"
                     placeholder="First name"
@@ -92,6 +92,7 @@ function Book() {
                   />
                   <br />
                   <br />
+                  <label>Date of Birth</label>
                   <Input type="date" placeholder="Date of Birth" />
                   <br />
                   <br />
@@ -110,6 +111,7 @@ function Book() {
                   </Select>
                   <br />
                   <br />
+                  <label>Appointment Date</label>
                   <Input
                     type="date"
                     placeholder="Appointment Date"
@@ -119,6 +121,7 @@ function Book() {
                   />
                   <br />
                   <br />
+                  <label>Appointment Time</label>
                   <Input
                     type="time"
                     placeholder="Appointment Time"
