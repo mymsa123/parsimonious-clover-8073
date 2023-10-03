@@ -8,13 +8,13 @@ const DoctorsCard = ({id,name, image,category,
 //const isAuth=useSelector((store)=>store.authReducer.isAuth)
     
       return (
-      <VStack spacing={4} lineHeight={6}  border={"2px solid black"} p={10} m={5} 
-      bgGradient="linear(to-t, pink.200, green.200)" boxShadow='2xl'>
+      <VStack spacing={4} lineHeight={6}  border={"5px solid orange"} p={10} m={5} borderRadius={50}
+      bgColor={"#00525D"} boxShadow='2xl'>
        <img src={image} alt={"doctor"} style={{width:"100%", borderRadius:"10%"}}/> 
-       <Text fontSize='2xl' color="black">{name}</Text>
-       <Text fontSize='2xl' color="black">{category}</Text>
-       <Text fontSize='xl' color="black">{description}</Text>
-       <Text fontSize='2xl' color="black">Fee: Rs {fee}</Text>
+       <Text fontSize='2xl' color="white">{name}</Text>
+       <Text fontSize='2xl' color="white">{category}</Text>
+       <Text fontSize='xl' color="white">{description}</Text>
+       <Text fontSize='2xl' color="white">Fee: Rs {fee}</Text>
        {/* {isAuth && ()} */}
        <Button border={"2px solid black"} borderRadius={50} p={6}
        backgroundColor={'green'} color={"white"}>
