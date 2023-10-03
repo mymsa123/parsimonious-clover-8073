@@ -23,13 +23,13 @@ export const WhyUs = () => {
   return (
     <VStack align="center" spacing={10} mt={15} mb={6}>
       <Flex justify="center" justifyContent="center">
-        <Box w="70%" bg="#ADC4CE" p={3} borderRadius="xl">
+        <Box w="70%" bg="#00525D" p={3} borderRadius="xl">
           <Flex justify="space-between">
             {whyChooseUsItems.map((item, index) => (
-              <Box key={index} p={4} m={1} borderWidth="1px" borderColor="#5C469C" borderRadius="md">
+              <Box key={index} p={4} m={1} color={"white"} borderWidth="1px" borderColor="white" borderRadius="md">
                 <Flex align="center" mb={2}>
-                  <Icon as={item.icon} boxSize={6} color="green" />
-                  <Heading as="h2" fontSize="lg" ml={2}>
+                  <Icon as={item.icon} boxSize={6} color={"orange"} />
+                  <Heading as="h2" fontSize="lg" ml={2} color={"orange"}>
                     {item.title}
                   </Heading>
                 </Flex>

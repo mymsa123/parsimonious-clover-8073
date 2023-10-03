@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <Flex
       position="sticky"
-      justifyContent={"space-around"}
+      justifyContent={"space-between"}
       top={0}
       width="100%"
       alignItems="center"
@@ -19,7 +19,7 @@ export const Navbar = () => {
       height="60px"
       zIndex={1}
     >
-      <Image src="/Images/MediCare Logo.png" width="60px" />
+      <Image src="/Images/MediCare Logo.png" width="60px"  />
       <Spacer />
       <LinkButton href="/" isActive={location.pathname === "/"}>
         Home
@@ -39,7 +39,7 @@ export const Navbar = () => {
       <LinkButton href="/about" isActive={location.pathname === "/about"}>
         About Us
       </LinkButton>
-      <Flex gap={4}>
+      <Flex gap={6} ml={20} >
         <Button colorScheme="blue">Login</Button>
         <Spacer />
         <Button colorScheme="green">Sign Up</Button>

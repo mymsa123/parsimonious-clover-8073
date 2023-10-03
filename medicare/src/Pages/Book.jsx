@@ -36,7 +36,7 @@ function Book() {
     setIsSubmitted(true);
   };
   return (
-    <VStack bgColor={"#00525D"} p={5}>
+    <VStack bgColor={"#00525D"} p={5} border={"2px solid white"}>
       <VStack mt={10}>
         <Text
           fontSize="4xl"

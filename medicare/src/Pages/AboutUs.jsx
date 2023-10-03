@@ -5,9 +5,9 @@ import { WhyUs } from "../Components/WhyUs";
 export const About = () => {
     return (
         <Box mt={10} mb={10}>
-            <Text fontSize="4xl" color="#191D88" fontWeight="600" mb={10} textAlign="center">About Us</Text>
+            <Text fontSize="4xl" color="green" fontWeight="600" mb={10} textAlign="center">About Us</Text>
             <Flex w="70%" p={4}
-                bg="#CCEEBC"
+                bg={"#00525D"}
                 margin="auto"
                 justify="center"
                 align="center"
@@ -16,13 +16,13 @@ export const About = () => {
                 <Image
                     src="https://img.freepik.com/free-photo/doctor-vaccinating-little-girl-that-s-supported-by-her-mother_23-2148755610.jpg?w=360&t=st=1696318148~exp=1696318748~hmac=2f14bf6608c013493a2a763f06dbf6087bf351cf319b3cc9df126c0d3972f5ca"
                     alt="MediCare"
-                    w={300} height={450}
+                    w={350} height={450} ml={4}
                     borderRadius="xl"
                 />
                 <Spacer />
-                <Box ml={8}>
-                    <Box mb={6} width={500}>
-                        <HStack spacing={2} mb={2}>
+                <Box ml={2} mr={8}>
+                    <Box mb={6} width={600} color={"white"}>
+                        <HStack spacing={2} mb={2} color={"orange"}>
                             <Icon as={FaEye} boxSize={6} />
                             <Heading as="h1" fontSize="2xl">
                                 Our Vision
@@ -36,8 +36,8 @@ export const About = () => {
                         </Text>
                     </Box>
 
-                    <Box mb={6}>
-                        <HStack spacing={2} mb={2}>
+                    <Box mb={6} width={600} color={"white"}>
+                        <HStack spacing={2} mb={2} color={"orange"}>
                             <Icon as={FaBullseye} boxSize={6} />
                             <Heading as="h1" fontSize="2xl">
                                 Our Mission
@@ -48,8 +48,8 @@ export const About = () => {
                         </Text>
                     </Box>
 
-                    <Box>
-                        <HStack spacing={2} mb={2}>
+                    <Box mb={6} width={600} color={"white"}>
+                        <HStack spacing={2} mb={2} color={"orange"}>
                             <Icon as={FaGem} boxSize={6} />
                             <Heading as="h1" fontSize="2xl">
                                 Our Values
@@ -66,7 +66,7 @@ export const About = () => {
             </Flex>
 
             <Box mb={20}>
-                <Text fontSize="4xl" color="#191D88" fontWeight="600" mb={10} textAlign="center">Why Choose Us</Text>
+                <Text fontSize="4xl" color="green" fontWeight="600" mb={10} textAlign="center">Why Choose Us</Text>
                 <WhyUs />
             </Box>
         </Box>
