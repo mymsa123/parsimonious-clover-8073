@@ -1,25 +1,25 @@
 .category {
-	text-align: left;
+  text-align: left;
 
-    & h3 {
-        &:nth-child(3) {
-            margin-top: 1.5em;
-        }
-    }
+  & h3 {
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 1.5em;
+  }
 
-	& input {
-		cursor: pointer;
-	}
+  & input {
+    cursor: pointer;
+  }
 
-    @media screen and (max-width:768px) {
-        display: none;
-    }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .category_list {
-	& div {
-		display: flex;
-		gap: 0.3em;
-        font-size: 1.1em;
-	}
+  & div {
+    display: flex;
+    gap: 0.3em;
+    font-size: 1.1em;
+  }
 }

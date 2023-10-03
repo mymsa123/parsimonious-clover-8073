@@ -37,6 +37,7 @@ export const Sidebar = () => {
   return (
     <div className={styles.category}>
       <h3>Product Categories</h3>
+
       <div className={styles.category_list}>
         <div>
           <input
@@ -104,7 +105,6 @@ export const Sidebar = () => {
       </div>
 
       <h3>Sort By Price</h3>
-
       <div className={styles.radio_input_wrapper}>
         <div className={styles.category_list} onChange={handleOrder}>
           <div>

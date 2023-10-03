@@ -9,7 +9,7 @@ export const getDoctor = (paramObj) => (dispatch) => {
   dispatch({ type: DOCTOR_REQUEST });
 
   axios
-    .get("https://medicare-comp.onrender.com/doctors", paramObj)
+    .get("https://medicare-final.onrender.com/doctors", paramObj)
     .then((res) => {
       dispatch({ type: GET_DOCTOR_SUCCESS, payload: res.data });
     })

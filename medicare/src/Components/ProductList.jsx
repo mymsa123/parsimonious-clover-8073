@@ -5,6 +5,7 @@ import { ProductCard } from "./ProductCard";
 import styled from "styled-components";
 import { useSearchParams } from "react-router-dom";
 import { useState } from "react";
+import styles from "../styles/ProductList.module.css";
 
 export const ProductList = () => {
   const dispatch = useDispatch();
@@ -32,12 +33,12 @@ export const ProductList = () => {
   console.log(products);
 
   return (
-    <div>
-      <div>
-        <h3>Search</h3>
+    <div className={styles.product_list}>
+      <div className={styles.search_container}>
         <input
+          className={styles.searchBar}
           type="text"
-          placeholder="Enter search query"
+          placeholder="Search for medicine and healthcare products"
           value={searchQuery}
           onChange={handleSearch}
         />
