@@ -48,7 +48,7 @@ Axios: Axios is a popular JavaScript library used for making HTTP requests.
 styled-components: styled-components is a library for styling React components using tagged template literals. It allows developers to write CSS-in-JS.
 
 ### Group Project
-Members Deepshikha-fw27_069 | Makarand
+Members Deepshikha-fw27_069 | Makarand Gijam-fw27_036 | Md Sabir Alam-fw25_201
 
 GitHub link: https://github.com/mymsa123/parsimonious-clover-8073
 
