@@ -1,18 +1,15 @@
-import './App.css';
-import Home from './Components/Home';
-import { Navbar } from './Components/Navbar';
-import Book from './Pages/Book';
-import DoctorsList from './Pages/DoctorsList';
-import { Products } from './Pages/Products';
+import "./App.css";
+import { AllRoutes } from "./Components/AllRoutes";
+import Footer from "./Components/Footer";
+import { Navbar } from "./Components/Navbar";
+
 
 function App() {
   return (
     <div className="App">
-     {/* <Navbar/> */}
-     {/* <Home/> */}
-     <DoctorsList/>
-  {/* <Book/> */}
-     {/* <Products/> */}
+      <Navbar />
+      <AllRoutes />
+      <Footer/>
     </div>
   );
 }

@@ -1,37 +1,57 @@
-export const Navbar = () =>{
-return(
-    <div>
-       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">MEDICARE</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Doctor</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Medicines
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-       
-      </ul>
-      
-       
-      
-    </div>
-  </div>
-</nav>
-    </div>
-)
-}
+import { Flex, Spacer, Button, Image, Text } from "@chakra-ui/react";
+import { useLocation, useNavigate } from "react-router-dom";
 
+export const Navbar = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  return (
+    <Flex
+      position="sticky"
+      justifyContent={"space-around"}
+      top={0}
+      width="100%"
+      alignItems="center"
+      bgColor="#00525d"
+      p={4}
+      pr={10}
+      pl={10}
+      height="60px"
+      zIndex={1}
+    >
+      <Image src="/Images/MediCare.png" width="60px" />
+      <Spacer />
+      <LinkButton href="/" isActive={location.pathname === "/"}>
+        Home
+      </LinkButton>
+      <Spacer />
+      <LinkButton
+        href="/medicines"
+        isActive={location.pathname === "/medicines"}
+      >
+        Medicines
+      </LinkButton>
+      <Spacer />
+      <LinkButton href="/doctors" isActive={location.pathname === "/doctors"}>
+        Doctors
+      </LinkButton>
+    </Flex>
+  );
+};
+
+function LinkButton({ children, href, isActive }) {
+  const navigate = useNavigate();
+
+  return (
+    <Button
+      variant="link"
+      colorScheme={isActive && "blue"}
+      onClick={() => navigate(href)}
+      color={isActive ? "orange" : "white"}
+      fontWeight={isActive ? "bold" : "normal"}
+      fontSize={isActive ? "xl" : "lg"}
+    >
+      {children}
+    </Button>
+  );
+}
