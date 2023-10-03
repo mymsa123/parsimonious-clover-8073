@@ -17,3 +17,5 @@ export const getDoctor = (paramObj) => (dispatch) => {
       dispatch({ type: DOCTOR_FAILURE });
     });
 };
+//https://medicare-comp.onrender.com/doctors
+//http://localhost:8080/doctors

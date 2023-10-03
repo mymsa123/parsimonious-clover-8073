@@ -49,7 +49,7 @@ const DoctorsList = () => {
           <Text
             fontSize="4xl"
             bgClip="text"
-            bgColor={"#00525D"}
+            bgColor={"green"}
             fontWeight="extrabold"
           >
             Say Hello👋!
@@ -57,7 +57,7 @@ const DoctorsList = () => {
           <Text
             fontSize="4xl"
             bgClip="text"
-            bgColor={"#00525D"}
+            bgColor={"green"}
             fontWeight="extrabold"
           >
             To a new era of healthcare
@@ -65,15 +65,15 @@ const DoctorsList = () => {
           <Text
             fontSize="2xl"
             bgClip="text"
-            bgColor={"#00525D"}
+            bgColor={"green"}
             fontWeight="extrabold"
           >
             Now Book an Appointment to consult a specialist doctor online,
             anytime, anywhere
           </Text>
         </VStack>
-        <VStack width="100%" spacing={4} m={0} p={5}>
-          <Text fontSize="4xl" color="black">
+        <VStack width="100%" spacing={4} m={0} p={5} color={"#00525D"}>
+          <Text fontSize="4xl" color="#00525D">
             Filter By Category
           </Text>
           <Flex gap={10}>
