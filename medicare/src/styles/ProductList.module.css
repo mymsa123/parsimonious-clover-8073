@@ -1,0 +1,20 @@
+.product_list {
+    display: flex;
+    gap: 1.5em;
+    flex-direction: column;
+    width: 100%;
+
+    
+    & .search_container {
+        background-color: #f5f5f5;
+        & .searchBar {
+            margin: 0.5em;
+            border-radius: 0.4em;
+            /* float: right; */
+            /* border: 1px solid gray; */
+            padding: 0.5em;
+            font-size: 1.2em;
+            width: 500px;
+        }
+    }
+}

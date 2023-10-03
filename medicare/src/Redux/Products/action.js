@@ -8,7 +8,7 @@ import {
 export const getProduct = (paramsObj) => (dispatch) => {
   dispatch({ type: PRODUCT_REQUEST });
   axios
-    .get("https://medicare-comp.onrender.com/medicines", paramsObj)
+    .get("https://medicare-final.onrender.com/medicines", paramsObj)
     .then((res) => {
       console.log(res)
       dispatch({ type: GET_PRODUCT_SUCCESS, payload: res.data });

@@ -120,7 +120,7 @@ function Book() {
                   <br />
                   <br />
                   <Input
-                    type="text"
+                    type="time"
                     placeholder="Appointment Time"
                     name="time"
                     value={form.time}
