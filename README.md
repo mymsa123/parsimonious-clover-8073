@@ -9,7 +9,7 @@ Welcome to the MediCare Website! This repository contains the code for a MediCar
 
 The homepage introduces users to the Medicare, its services, and Medicines and doctors. Users can also make appointments.
 <img src="/medicare//public/Images/Home.png"/>
-
+ 
 ### HealthCare Services
 
 This provides detailed information about the services, categorized into various specialties.
