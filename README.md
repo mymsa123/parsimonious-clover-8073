@@ -1,8 +1,7 @@
 # parsimonious-clover-8073
 
 ## MediCare Logo
-<img src="/medicare/public/Images/MediCare.png" alt=""/>
-
+<img src="/medicare/public/Images/MediCare.png" alt="" width="50%"/>
 Welcome to the MediCare Website! This repository contains the code for a MediCare website built using React,React-redux, Redux-thunk, React-Router-DOM and the Chakra UI library.
 
 ## Home Page
