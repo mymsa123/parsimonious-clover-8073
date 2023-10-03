@@ -8,6 +8,7 @@ export const Home = () => {
         <img src="/Images/Home.png" alt="Home" width="100%" />
       </Box>
       <VStack spacing={1} w={"70%"} m={4}>
+
         <Text fontSize="6xl" color={"#00525D"}>Healthcare Services</Text>
         <Text fontSize="xl" color={"#00525D"}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur voluptates 
         animi distinctio ea voluptatum dolorum dignissimos autem, accusantium iste facilis.</Text>
@@ -15,7 +16,7 @@ export const Home = () => {
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "15px", width:"80%", 
       margin:"5px", marginBottom:"20px"}}>
         <VStack border={"2px solid black"} pt={8} pb={8} borderRadius={10} borderRadius={10}>
-
+          
           <img src="/Images/consultancy.png" alt="home" />
           <Text fontSize="2xl">Online Consultancy</Text>
 
@@ -57,7 +58,7 @@ export const Home = () => {
         </VStack>
       </div>
       <Box width={"100%"} m={8}>
-        <img src="/Images/data.png" alt="data" width="100%"/>
+        <img src="/Images/data.png" alt="data" width="100%" />
       </Box>
     </VStack>
   )

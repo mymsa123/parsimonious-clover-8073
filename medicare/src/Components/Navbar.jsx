@@ -19,7 +19,7 @@ export const Navbar = () => {
       height="60px"
       zIndex={1}
     >
-      <Image src="/Images/MediCare Logo.png" width="60px"  />
+      <Image src="/Images/MediCare Logo.png" width="60px" />
       <Spacer />
       <LinkButton href="/" isActive={location.pathname === "/"}>
         Home
