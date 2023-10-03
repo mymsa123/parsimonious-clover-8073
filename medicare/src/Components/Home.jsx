@@ -14,7 +14,7 @@ export const Home = () => {
       </VStack>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "15px", width:"80%", 
       margin:"5px", marginBottom:"20px"}}>
-        <VStack border={"2px solid black"} pt={8} pb={8} borderRadius={10} borderRadius={10}>
+        <VStack border={"2px solid black"} pt={8} pb={8} borderRadius={10}>
 
           <img src="/Images/consultancy.png" alt="home" />
           <Text fontSize="2xl">Online Consultancy</Text>
